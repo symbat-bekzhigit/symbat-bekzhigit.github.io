@@ -1,3 +1,3 @@
 # Personal website
 
-Link: 
+Link:  https://symbat-bekzhigit.github.io/
