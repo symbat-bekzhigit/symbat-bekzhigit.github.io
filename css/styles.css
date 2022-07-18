@@ -1,6 +1,69 @@
+/*
+Color Palette: 
+Soya Bean  h1
+#676350
+Mischka
+#D4CFDD
+Mongoose
+#BD9E7C
+Sorrell Brown
+#CCBB86
+
+
+OR
+
+Finch
+#60624D
+Mischka
+#D6D4DB
+Sorrell Brown
+#C3B37E
+Swamp Green
+#ABB485
+
+*/
+
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #D4CFDD;
   font-family: 'Oxygen', sans-serif;
 }
+
+/** HEADER **/
+#header-nav {
+  background-color: #ABB485;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-custom {
+  height: 40px;
+}
+
+
+
+.navbar-brand h1 { /* My name */
+  font-family: 'Edu SA Beginner', cursive;
+  color: #676350;
+  font-size: 1.1em;
+  text-transform: uppercase;
+ /* font-weight: bold; 
+  //text-shadow: 1px 1px 1px #222; */
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: .75;
+  text-align: center;
+}
+
+.navbar-brand a:link, .navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
