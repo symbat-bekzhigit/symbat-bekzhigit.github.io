@@ -2,13 +2,16 @@
 Color Palette: 
 Soya Bean  h1
 #676350
-Mischka
+Mischka - сиреневый
 #D4CFDD
 Mongoose
 #BD9E7C
 Sorrell Brown
 #CCBB86
 
+
+Beige for text box
+#efebe2
 
 OR
 
@@ -21,12 +24,14 @@ Sorrell Brown
 Swamp Green
 #ABB485
 
+
+
 */
 
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #D4CFDD;
+  background-color: white;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -41,17 +46,18 @@ body {
   height: 40px;
 }
 
-
-
 .navbar-brand h1 { /* My name */
-  font-family: 'Edu SA Beginner', cursive;
+/*  font-family: 'Edu SA Beginner', cursive;*/
+  /* font-family: 'Homemade Apple', cursive;*/
+/*  font-family: 'Water Brush', cursive; */
+/*  font-family: 'Ms Madi', cursive;*/
+  font-family: 'Dawning of a New Day', cursive;
   color: #676350;
-  font-size: 1.1em;
-  text-transform: uppercase;
- /* font-weight: bold; 
-  //text-shadow: 1px 1px 1px #222; */
+  font-size: 2em;
+  /*text-shadow: 1px 1px 1px #222;*/ 
   margin-top: auto;
   margin-bottom: auto;
+  margin-left: 20px;
   line-height: .75;
   text-align: center;
 }
@@ -60,10 +66,23 @@ body {
   text-decoration: none;
 }
 
+img {
+      opacity: 0.5;
+}
 
+/* HOME PAGE */
 
+/*
+.jumbotron {
+  width: 500px;
+  height: 500px;
+  border: 10px solid white;
+  padding: 0;
+  float: left;
+}*/
 
-
-
-
-
+/*p.about-info {
+  float: right;
+  background-color: #D4CFDD;
+  width: 50%;
+}*/
