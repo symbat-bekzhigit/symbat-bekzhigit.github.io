@@ -41,7 +41,9 @@ body {
   border-radius: 0;
   border: 0;
 }
-
+.navbar-brand {
+  margin: 0;
+}
 
 .navbar-brand h1 { /* My name */
 /*  font-family: 'Edu SA Beginner', cursive;*/
@@ -99,6 +101,11 @@ body {
   min-height:40%;
   max-height: 70%;
   background-color: #efebe2;
+  margin: 0;
+  padding: 30px;
+  border: 1px solid #ABB485;
+  border-radius: 25px;
+
 }
 
 
@@ -114,7 +121,7 @@ body {
 
 }
 
-/********** Small and Extra Small devices only - Mobile **********/
+/********** Small devices only - Mobile **********/
 @media (max-width: 767px) {
 
 .mainphoto {
@@ -125,13 +132,39 @@ body {
 }
 
 .about-info {
-  top: 35%;
+  top: 40%;
   left: 10%;
   width: 80%;
   height: auto;
   min-height:40%;
   max-height: 70%;
   background-color: #efebe2;
+}
+
+}
+
+/********** Extra Small devices only - Mobile **********/
+@media (max-width: 450px) {
+
+.mainphoto {
+  top: 5%;
+  left: 25%;
+  width: 50%;
+  max-width:50%;
+}
+
+.about-info {
+  top: 30%;
+  left: 10%;
+  width: 80%;
+  height: auto;
+  min-height:40%;
+  max-height: 70%;
+  background-color: #efebe2;
+}
+
+.jumbotron .background {
+  height: 915px;
 }
 
 
