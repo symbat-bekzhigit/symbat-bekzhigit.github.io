@@ -42,9 +42,6 @@ body {
   border: 0;
 }
 
-.navbar-custom {
-  height: 40px;
-}
 
 .navbar-brand h1 { /* My name */
 /*  font-family: 'Edu SA Beginner', cursive;*/
@@ -54,9 +51,9 @@ body {
   font-family: 'Dawning of a New Day', cursive;
   color: #676350;
   font-size: 2em;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 10px;
   line-height: .75;
   text-align: center;
 }
@@ -73,25 +70,25 @@ img {
 /* HOME PAGE */
 
 
-/********** Large devices only **********/
+/********** Extra Large devices only **********/
 @media (min-width: 1200px) {
 
 }
 
 
-/********** Medium devices only **********/
+/********** Large devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   
 
 }
 
-/********** Small devices only **********/
+/********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
 
 }
 
-/********** Extra small devices only **********/
+/********** Small and Extra Small devices only **********/
 @media (max-width: 767px) {
 
 
