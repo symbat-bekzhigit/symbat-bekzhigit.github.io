@@ -66,7 +66,8 @@ body {
 /* HOME PAGE */
 
 .jumbotron .background {
-      opacity: 0.5;     
+  opacity: 0.5;  
+  height: 100%;   
 }
 
 .container-fluid .jumbotron {
@@ -79,6 +80,7 @@ body {
   max-width: 100%;
 }
 
+
 .mainphoto {
   position:absolute;
   left: 5%;
@@ -88,6 +90,16 @@ body {
   min-width:30%;
 }
 
+.about-info {
+  position:absolute;
+  right: 5%;
+  top: 15%;
+  width: 50%;
+  height: auto;
+  min-height:40%;
+  max-height: 70%;
+  background-color: #efebe2;
+}
 
 
 /********** Large devices only - Desktop **********/
@@ -105,13 +117,23 @@ body {
 /********** Small and Extra Small devices only - Mobile **********/
 @media (max-width: 767px) {
 
-  .mainphoto {
-  position:absolute;
-  top: 15%;
+.mainphoto {
+  top: 5%;
   left: 25%;
   width: 50%;
-  height: auto;
   max-width:50%;
 }
+
+.about-info {
+  top: 35%;
+  left: 10%;
+  width: 80%;
+  height: auto;
+  min-height:40%;
+  max-height: 70%;
+  background-color: #efebe2;
+}
+
+
 }
 
