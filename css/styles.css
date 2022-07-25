@@ -113,17 +113,21 @@ body {
 
 /* FOOTER */
 .panel-footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #ABB485;
   border-top: 0;
 }
+
 .panel-footer div.icons {
   margin-bottom: 15px;
   margin-left: 25px;
 
 }
 
+#github-icon, #linkedin-icon, #mail-icon {
+  text-decoration:none;
+}
 
 /* END FOOTER */
 
