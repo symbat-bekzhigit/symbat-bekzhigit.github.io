@@ -135,8 +135,9 @@ body {
 
 /* PROJECTS PAGE */
 
-#main-content {
+#projects-content {
   background-color: #D4CFDD;
+  padding-bottom: 60px;
 }
 #projects-title {
   color: #676350;
@@ -156,6 +157,18 @@ span.name {
   text-align: left;
 }
 
+.row {
+  padding-top: 10px;
+}
+
+hr#separator {
+  border-top: 0;
+}
+
+/*
+.projects-content div#creative-conding {
+  margin-top: 50px;
+}*/
 
 /* END PROJECTS PAGE */
 
