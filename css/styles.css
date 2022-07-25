@@ -97,19 +97,33 @@ body {
 .about-info {
   position:absolute;
   right: 5%;
-  top: 15%;
+  top: 20%;
   width: 50%;
   height: auto;
-  min-height:40%;
+  min-height: 35%;
   max-height: 70%;
   background-color: #efebe2;
   margin: 0;
-  padding: 30px;
-  /*border: 1px solid #ABB485;
-  border-radius: 25px;*/
+  padding: 40px;
+  outline: 2px solid #c4c4af;
+  outline-offset: -30px;
 
 }
 
+
+/* FOOTER */
+.panel-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ABB485;
+  border-top: 0;
+}
+.panel-footer div.row {
+
+}
+
+
+/* END FOOTER */
 
 /********** Large devices only - Desktop **********/
 @media (min-width: 992px){
