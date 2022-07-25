@@ -118,7 +118,9 @@ body {
   background-color: #ABB485;
   border-top: 0;
 }
-.panel-footer div.row {
+.panel-footer div.icons {
+  margin-bottom: 15px;
+  margin-left: 25px;
 
 }
 
