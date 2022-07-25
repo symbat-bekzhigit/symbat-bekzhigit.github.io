@@ -128,8 +128,38 @@ body {
 #github-icon, #linkedin-icon, #mail-icon {
   text-decoration:none;
 }
-
 /* END FOOTER */
+
+
+
+
+/* PROJECTS PAGE */
+
+#main-content {
+  background-color: #D4CFDD;
+}
+#projects-title {
+  color: #676350;
+  padding: 20px;
+  border-bottom: 2px solid #676350;
+}
+
+h4 {
+  color: #676350;
+}
+
+span.date {
+  text-align: right;
+}
+
+span.name {
+  text-align: left;
+}
+
+
+/* END PROJECTS PAGE */
+
+
 
 /********** Large devices only - Desktop **********/
 @media (min-width: 992px){
