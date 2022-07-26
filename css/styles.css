@@ -142,7 +142,7 @@ body {
 #projects-content {
   color: #676350;
   background-color: #efebe2;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
   font-family: 'Optima', sans-serif;
   font-size: 1.1em;
 }
@@ -150,10 +150,6 @@ body {
  /* color: #676350;*/
   padding: 20px;
   border-bottom: 2px solid #676350;
-}
-
-h4 {
-  color: #676350;
 }
 
 span.date {
@@ -178,20 +174,19 @@ div#projects-content > .row {
   padding-top: 40px;
 }
 
-
 hr.separator {
   border-top: 0;
   margin: 1.5rem 0;
 }
 
-
-
-.name a:link, .name a:hover, .name a:focus {
+.name a:link {
   text-decoration: none;
   color: #676350;
 }
 
 .name a:active, .name a:hover {
+  text-decoration: none;
+  color: #676350;
   background-color: #c4c4af;
 }
 
