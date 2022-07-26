@@ -136,11 +136,12 @@ body {
 /* PROJECTS PAGE */
 
 #projects-content {
-  background-color: #D4CFDD;
+  color: #676350;
+  background-color: #efebe2;
   padding-bottom: 60px;
 }
 #projects-title {
-  color: #676350;
+ /* color: #676350;*/
   padding: 20px;
   border-bottom: 2px solid #676350;
 }
@@ -155,20 +156,35 @@ span.date {
 
 span.name {
   text-align: left;
+  font-weight: 600;
+
 }
+
+span.lang {
+  font-style: italic;
+}
+
 
 .row {
-  padding-top: 10px;
+  padding-top: 40px;
 }
 
-hr#separator {
+hr.separator {
   border-top: 0;
+  margin: 2rem 0;
 }
 
-/*
-.projects-content div#creative-conding {
-  margin-top: 50px;
-}*/
+
+
+.name a:link, .name a:hover, .name a:focus {
+  text-decoration: none;
+  color: #676350;
+}
+
+.name a:active, .name a:hover {
+  background-color: #c4c4af;
+}
+
 
 /* END PROJECTS PAGE */
 
