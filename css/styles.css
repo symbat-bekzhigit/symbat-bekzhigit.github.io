@@ -97,10 +97,10 @@ body {
 .about-info {
   position:absolute;
   right: 5%;
-  top: 20%;
+  top: 16%;
   width: 50%;
   height: auto;
-  min-height: 30%;
+  min-height: 42%;
   max-height: 70%;
   background-color: #efebe2;
   margin: 0;
@@ -218,12 +218,12 @@ hr.separator {
 }
 
 .about-info {
-  top: 50%;
+  top: 40%;
   left: 10%;
   width: 80%;
 }
 .jumbotron .background {
-  height: 800px;
+  height: 1200px;
 }
 
 }
@@ -245,7 +245,7 @@ hr.separator {
 }
 
 .jumbotron .background {
-  height: 915px;
+  height: 1100px;
 }
 
 
