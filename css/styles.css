@@ -139,6 +139,8 @@ body {
   color: #676350;
   background-color: #efebe2;
   padding-bottom: 60px;
+  font-family: 'Optima', sans-serif;
+  font-size: 1.1em;
 }
 #projects-title {
  /* color: #676350;*/
@@ -164,14 +166,18 @@ span.lang {
   font-style: italic;
 }
 
-
 .row {
+  padding-top: 10px;
+}
+
+div#projects-content > .row {
   padding-top: 40px;
 }
 
+
 hr.separator {
   border-top: 0;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 
