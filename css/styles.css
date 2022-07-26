@@ -179,7 +179,7 @@ hr.separator {
   margin: 1.5rem 0;
 }
 
-.name a:link {
+.name a {
   text-decoration: none;
   color: #676350;
 }
