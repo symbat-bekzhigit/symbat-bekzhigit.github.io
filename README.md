@@ -1,3 +1,3 @@
-# Personal website (old one)
+# Personal website
 
-Link:  https://symbat-bekzhigit.github.io/
+Link: https://symbat-bekzhigit.github.io/](https://symbat-bekzhigit.github.io/portfolio/
